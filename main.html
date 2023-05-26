@@ -11,6 +11,23 @@
     <script type="text/javascript" src="./script.js">
 </script>
 
+	<form method="POST">
+		<label for="name">Name</label>
+		<input type="text" maxlength="50" minlength="3" name="name" id="name"placeholder="name" required>
+		<br>
+		<label for="portfolio">Portfolio</label>
+		<input type="url" name="portfolio" id="portfolio"  required>
+		<br>
+		<label for="Colour">Colour</label>
+		<input type="Color" name="favColor"  id="favColor" required>
+		<br>
+		<label for="likeness">likeness</label>
+		<input type="range" id="likeness" name="likeness"
+         min="1" max="100">
+		<br>
+		<button type="submit">submit</button>
+	</form>
+    
 </body>
 
 </html>
